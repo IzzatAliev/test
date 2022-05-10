@@ -1,12 +1,8 @@
-package ua.com.alevel.dto.response;
+package ua.com.alevel.api.dto.response;
 
-import lombok.*;
+import lombok.Data;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+@Data
 public class UserResponse {
 
     private String first_name;

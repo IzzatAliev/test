@@ -1,12 +1,8 @@
-package ua.com.alevel.dto.request;
+package ua.com.alevel.api.dto.request;
 
 import lombok.*;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+@Data
 public class UserRequest {
 
     private String first_name;

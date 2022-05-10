@@ -1,8 +1,7 @@
 package ua.com.alevel.service;
 
-import ua.com.alevel.entity.User;
+import ua.com.alevel.entity.user.User;
 
-public interface UserService {
+public interface UserService extends BaseService<User> {
 
-    void create(User user);
 }

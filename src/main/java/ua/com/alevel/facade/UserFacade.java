@@ -1,6 +1,8 @@
 package ua.com.alevel.facade;
 
-public interface UserFacade<REQ,RES> {
+import ua.com.alevel.api.dto.request.UserRequest;
+import ua.com.alevel.api.dto.response.UserResponse;
 
-    void create(REQ req);
+public interface UserFacade extends BaseFacade<UserRequest, UserResponse> {
+
 }
